@@ -17,4 +17,16 @@
 
     Here's a list of sections distributed to each interns to work on.
 
-    - Homepage Section : Aqib Ashraf  |
+    - Homepage Section : Aqib Ashraf  | Aishwary Rawal
+
+    - Services Section : Aditya Gupta | Bhavik Sojitra
+
+    - How we work Section : Ankur Tyagi | Abhishek Rawe
+
+    - About Us Section : Bhavesh Jha |  Ayush Garg
+
+    - Contact Us : Shivasai Prasam |  Aradhya
+
+    - Footer : dev-Ashwini | Cruze
+
+`Design should be Mobile Responsive`
