@@ -25,9 +25,9 @@
 
     - Our Clients Section :  Bhavesh Jha |  Ayush Garg
 
-    - Contact Us Section:    Shivasai Prasam |  Aradhya
+    - Contact Us Section :   dev-Ashwini | Abhishek Rawe
 
-    - Footer :               dev-Ashwini | Cruze
+    - Footer :               Shivasai Prasam |  Aradhya
 
 `Design should be Mobile Responsive`
 
