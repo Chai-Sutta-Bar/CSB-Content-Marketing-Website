@@ -1,5 +1,34 @@
 # CSB - Content Marketing Website
 
+## How to Start
+
+    First, you need to have this repository on your Local Machine.
+
+    Steps:
+        i. Fork this Repository
+        ii. Download the Zip file (for Beginners) or you can
+         Clone the Repository in your local Machine (Require git knowledge)
+
+        iii. Open the download/cloned Repo in your VS Code.
+        iv. Open Terminal in VS Code.
+        v. Enter Command : git pull  (git pull origin master, for the first time )
+
+    - Do your coding / Changes that you need.
+
+`Note: Do git pull, everytime you start working on the project. It keeps the project updated with other's code`
+
+## How to Upload your Code :
+
+    Steps to do on Your Local Machine (VS Code Terminal) :
+        i. git add .
+        ii. git commit -m "Code by "Your Name Here"
+        iii. git push  (git push orign master)
+
+    Steps to do on your Forked Repo
+        i. Create pull request
+        ii. Add some text of what you code/build
+        iii. Create pull Request
+
 ## How to Code :
 
 ```cpp
