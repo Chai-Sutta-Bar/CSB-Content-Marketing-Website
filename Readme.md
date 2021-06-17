@@ -4,10 +4,12 @@
 
 ```cpp
     //Enter Your Name. Eg. Code by John Doe starts here
+
             <code></code>
             <code></code>
             <code></code>
             <code></code>
+
      //Code by John Doe Ends here
 ```
 
@@ -21,13 +23,13 @@
 
     - Services Section :     Aditya Gupta | Bhavik Sojitra
 
-    - How we work Section :  Ankur Tyagi | Abhishek Rawe
+    - How we work Section :  Ankur Tyagi | Shivasai Prasam
 
     - Our Clients Section :  Bhavesh Jha |  Ayush Garg
 
     - Contact Us Section :   dev-Ashwini | Abhishek Rawe
 
-    - Footer :               Shivasai Prasam |  Aradhya
+    - Footer :               Cruze |  Aradhya
 
 `Design should be Mobile Responsive`
 
