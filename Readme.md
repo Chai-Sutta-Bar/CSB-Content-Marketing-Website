@@ -11,5 +11,10 @@
      //Code by John Doe Ends here
 ```
 
-`Note : `
-If there is a collision
+`Note : (If required) If two interns are working on same section, then they should comment out the other one's code instead of deleting it . `
+
+## What to Code :
+
+    Here's a list of sections distributed to each interns to work on.
+
+    - Homepage Section : Aqib Ashraf  |
