@@ -56,9 +56,11 @@
 
     - Our Clients Section :  Bhavesh Jha |  Ayush Garg
 
-    - Contact Us Section :   dev-Ashwini | Abhishek Rawe
+    - Contact Us Section :   dev-Ashwini | Akanksha Jha
 
     - Footer :               Cruze |  Aradhya
+
+    Frotend with React & Backend - Aman | Abhishek Rawe 
 
 `Design should be Mobile Responsive`
 
