@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+  }
+  span{
+    display: inline-block;
+  }
+  .card{
+    margin-bottom: 50px;
+  }
+  .card h4{
+    position: relative;
+    color:#f91942f1;
+    text-align: center;
+    font-size:35px;
+    margin-bottom: 30px;
+  }
+
+  .card p{
+    color:rgba(0, 0, 0, 0.425);
+    font-size: 20px;
+    text-align: center;
+  }
+  .item{
+    background:#fff;
+    text-align: center;
+    padding:20px 15px;
+    box-shadow: 0 0 25px rgba(48, 105, 138, 0.116);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    border:5px solid rgba(0, 0, 0, 0.233);
+  }
+
+  .item p{
+    font-size: 18px;
+  }
+  .item h6{
+    margin-bottom: 20px;
+    color:#2f2f2f;
+  }
+
+  .item:hover{
+    background:#198df9;
+  }
+
+  .item .icons{
+    font-size:50px;
+    color:#f91942f1;
+    width:100px;
+    height:100px;
+    line-height: 100px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+  }
+  .item .flags_one{
+    background:rgba(247, 199, 5, 0.692);
+    color:#f91942f1;
+  }
+  .item .flags_two{
+    background: rgba(255, 77, 28, 0.562);
+    color:#f91942f1;
+  }
+  .item .flags_three{
+    background:rgba(0, 147, 39, 0.288);
+    color:#f91942f1;
+  }
+.item .flags_four{
+  background:rgba(0, 106, 255, 0.075);
+  color:#f91942;
+}
+ 
+  
+    
