@@ -11,13 +11,14 @@
     position: relative;
     color:#f91942f1;
     text-align: center;
-    font-size:35px;
+    font-size:2.2rem;
     margin-bottom: 30px;
+    font-weight: 500;
   }
 
   .card p{
     color:rgba(0, 0, 0, 0.425);
-    font-size: 20px;
+    font-size: 1.3rem;
     text-align: center;
   }
   .item{
@@ -28,10 +29,11 @@
     border-radius: 15px;
     margin-bottom: 30px;
     border:5px solid rgba(0, 0, 0, 0.233);
+   
   }
 
   .item p{
-    font-size: 18px;
+    font-size: 1.2rem;
   }
   .item h6{
     margin-bottom: 20px;
@@ -40,6 +42,9 @@
 
   .item:hover{
     background:#198df9;
+    transition: background-color 0.5s ease-in,
+                transform 0.5s ease-in;
+    transform: translateY(-3px);
   }
 
   .item .icons{
@@ -50,6 +55,13 @@
     line-height: 100px;
     border-radius: 50px;
     margin-bottom: 25px;
+  }
+
+  .item:hover span.icons{
+    background:#fff;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in,
+                transform 0.3s ease-in;
   }
   .item .flags_one{
     background:rgba(247, 199, 5, 0.692);
