@@ -1,0 +1,90 @@
+ /* Service Section by Bhavik Sojitra */
+body {
+	background-color: #fff;
+	color: #222f3e;
+	min-height: 100vh;
+	font-family: tahoma;
+}
+.header {
+	width: 90%;
+	margin: 0 auto;
+}
+.header > h1 {
+	font-weight: 300 !important;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: 60px;
+	font-size: 3em;
+}
+.header > p {
+	width: 100%;
+	font-size: 1.4em;
+	text-align: center;
+	margin: 0 auto;
+}
+.container {
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+.services {
+	margin-top: 30px;
+}
+.service {
+	background-color: #fff;
+	margin: 10px;
+	padding: 35px 15px;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	transition: background-color 0.3s ease-in,
+				transform 0.3s ease-in;
+	width: 200px;
+}
+.service:hover {
+	background-color: #e81e27;
+	transform: translateY(-3px);
+}
+.service:before {
+	content: "";
+	position: absolute;
+	top: -35px;
+	right: -40px;
+	border-width: 20px;
+	border-style: solid;
+	border-color: #222f3e #222f3e rgba(0,0,0,0.4) #2c4159c9;
+	transition: right 0.3s ease-out,
+				top 0.3s ease-out;
+}
+.service:hover::before {
+	top: 0;
+	right: 0;
+}
+.service > .icon {
+	display: inline-block;
+	color: #2634c4;
+	font-size: 3.5rem;
+	margin-bottom: 0.7rem;
+	transition: color 0.3s ease-out;
+}
+.service > .title {
+	font-weight: 900;
+	font-size: 1.2rem;
+	line-height: 1.55rem;
+	margin-bottom: 1.2rem;
+	text-decoration: uppercase;
+	transition: color 0.3s ease-out;
+}
+.service > .description {
+	line-height: 1.55rem;
+	margin: 0;
+	transition: color 0.3s ease-out;
+}
+.service:hover > .icon,
+.service:hover > .title,
+.service:hover > .description {
+	color: #fff;
+}
+/* Service Section End by Bhavik Sojitra */
