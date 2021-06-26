@@ -48,23 +48,15 @@
 
     Here's a Updated list of sections distributed to each interns to work on.
 
-
-
     - About Us Page :     Aqib Ashraf  | Aishwary Rawal
-
-
 
     - Web Development Page :     Aditya Gupta | Bhavik Sojitra
 
-
-
     - App Development Page:  Ankur Tyagi | Akanksha Jha
-
-
 
     - Graphic & Logo Designing Page :  Bhavesh Jha |  Ayush Garg
 
-
+    - Video Production Page : Cruze | Aradhya
 
     - Social Media Management Page :   dev-Ashwini | Abhishek Rawe
 
