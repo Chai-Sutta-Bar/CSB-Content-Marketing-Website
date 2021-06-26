@@ -46,21 +46,31 @@
 
 ## What to Code :
 
-    Here's a list of sections distributed to each interns to work on.
+    Here's a Updated list of sections distributed to each interns to work on.
 
-    - Homepage Section :     Aqib Ashraf  | Aishwary Rawal
 
-    - Services Section :     Aditya Gupta | Bhavik Sojitra
 
-    - How we work Section :  Ankur Tyagi | Shivasai Prasam
+    - About Us Page :     Aqib Ashraf  | Aishwary Rawal
 
-    - Our Clients Section :  Bhavesh Jha |  Ayush Garg
 
-    - Contact Us Section :   dev-Ashwini | Akanksha Jha
 
-    - Footer :               Cruze |  Aradhya
+    - Web Development Page :     Aditya Gupta | Bhavik Sojitra
 
-    Frotend with React & Backend - Aman | Abhishek Rawe 
+
+
+    - App Development Page:  Ankur Tyagi | Akanksha Jha
+
+
+
+    - Graphic & Logo Designing Page :  Bhavesh Jha |  Ayush Garg
+
+
+
+    - Social Media Management Page :   dev-Ashwini | Abhishek Rawe
+
+
+
+    Frotend with React & Backend - Aman | Abhishek Rawe
 
 `Design should be Mobile Responsive`
 
