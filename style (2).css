@@ -1,0 +1,38 @@
+.photo1{
+display: flex;
+flex-direction: row;
+}
+.photo1 > p{
+    padding-top: 1em;
+    position: relative;
+    top: 120px;
+}
+.photo1 > h1{
+    position: relative;
+    left: 250px;
+}
+.photo2 {
+    display: flex;
+    flex-direction: row;
+}
+.photo2 > p{
+    position: relative;
+    top: 120px ;
+    right: 50px;
+}
+.photo2 > h1{
+    position: relative;
+    left: 170px;
+}
+.photo3{
+    display: flex;
+    flex-direction: row;
+    }
+    .photo3 > p{
+        position: relative;
+        top: 120px;
+    }
+    .photo3 > h1{
+        position: relative;
+        left: 250px;
+    }
