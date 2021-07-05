@@ -1,6 +1,5 @@
 /*code by Aishwary Rawal*/
-@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
 *{
 	margin: 0;
 	padding: 0;
@@ -8,7 +7,7 @@
 	outline: none;
 	list-style: none;
 	text-decoration: none;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: Roboto, sans-serif;
 }
 
 h1.title{
@@ -32,11 +31,12 @@ p{
     width: 180px;
     height: 35px;
     line-height: 35px;
-    border: 2px solid #6200EA;
-    color: #6200EA;
+    border: 2px solid #4589d6;
+    color: #4589d6;
     display: block;
     margin: 25px auto 0;
     text-align: center;
+  
 }
 
 .main_container{
@@ -64,10 +64,12 @@ p{
 	line-height: 38px;
 	margin-bottom: 15px;
 }
-.banner_content p {
-	color: #EDE7F6;
+.banner_content p a{
+	color: #F8BBD0;
 }
-
+.banner_content p{
+	color: #ECEFF1;
+}
 .banner_content h1 span{
 	color: #white;
 }
@@ -77,29 +79,54 @@ p{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
-.us > p{
-   
-    padding-top: 70px;
-  left: 200px;
-  padding-right: 100px;
-    }
-.us > h1{
- 
+@media (max-width: 800px) {
+  .us {
+   flex-direction: column;
+  }
+  .us img{
+    padding-right: 10px;
+    
+  }
+  .us > p{
     position: relative;
+    align-self: center;
+    padding-top: 70px;
+   }
+  .us h1{
+     align-self: center;
+    padding-top: 30px;
+    
+  color: #eb1e4b;
+    
+}
+}
+.us img{
+    padding-left: 10px;
+  }
+.us p{
+    
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right:30px;
+  
+    }
+.us h1{
+ 
+    text-align: center;
     left: 250px;
-  width: 600px;
-  color: #FF1744;
+  
+  color: #eb1e4b;
 }
 
 .founders{
 	background: #E8EAF6;
+  
   text-align: center;
 	padding: 5% 10%;
 }
 
 .founders .title{
-  color: #FF1744;
+  color: #eb1e4b;
 }
 .all_founders {
     margin-top: 35px;
@@ -118,7 +145,7 @@ p{
 }
 
 .all_founders .founder h3 {
-    color: #FF1744;
+    color: #eb1e4b;
     margin-bottom: 15px;
 }
 .vision{
@@ -126,5 +153,10 @@ p{
 	padding: 5% 10%;
 }
 .vision .title{
-  color: #FF1744;
+  color: #eb1e4b;
+  text-decoration-line: underline;
 }
+
+
+
+
