@@ -13,7 +13,7 @@
 h1.title{
 	margin-bottom: 20px;
 	color: #1656b6;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: Roboto, sans-serif;
 	text-transform: uppercase;
 	font-size: 38px;
 	word-spacing: 25px;
@@ -27,7 +27,7 @@ p{
 	color: #000000;
 }
 
-.btn a {
+.btn a{
     width: 180px;
     height: 35px;
     line-height: 35px;
@@ -36,8 +36,14 @@ p{
     display: block;
     margin: 25px auto 0;
     text-align: center;
-  
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
 }
+.btn a:hover{
+  outline:none;
+    border: 3px solid #F8BBD0;
+    box-shadow: 0 0 50px 50px #F8BBD0 inset; 
+    transform: translateY(-4px);
+  }
 
 .main_container{
 	position: relative;
@@ -72,7 +78,27 @@ p{
 }
 .banner_content h1 span{
 	color: #white;
+  display: inline-block;
+  animation: inner-left 2s 3s ease both,
+    text-clip 3s 1s cubic-bezier(0.5, 0, 0.1, 1) both;
+ }
+@keyframes inner-left {
+  from {
+    transform: translateY(-290%);
+  }
+  to {
+    transform: none;
+  }
 }
+@keyframes text-clip {
+  from {
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
 .us{
   display: flex;
   flex-direction: row;
@@ -102,20 +128,20 @@ p{
 }
 .us img{
     padding-left: 10px;
+  
   }
 .us p{
     
     padding-top: 30px;
     padding-left: 50px;
     padding-right:30px;
-  
-    }
+   }
+    
 .us h1{
  
     text-align: center;
     left: 250px;
-  
-  color: #eb1e4b;
+    color: #eb1e4b;
 }
 
 .founders{
@@ -137,25 +163,37 @@ p{
 
 .all_founders .founder {
     width: 30%;
-}
+  }
 
 .all_founders .founder img {
     width: 100%;
     margin-bottom: 25px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
 }
 
 .all_founders .founder h3 {
     color: #eb1e4b;
     margin-bottom: 15px;
+  text-decoration-line: underline;
 }
+
 .vision{
   text-align: center;
 	padding: 5% 10%;
+ 
 }
 .vision .title{
   color: #eb1e4b;
   text-decoration-line: underline;
 }
+.gallery-cell {
+  width: 100%;
+  
+  margin-right: 10px;
+  
+  counter-increment: gallery-cell;
+}
+
 
 
 
