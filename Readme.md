@@ -54,7 +54,7 @@
 
     - App Development Page:  Ankur Tyagi | Akanksha Jha
 
-    - Graphic & Logo Designing Page :  Bhavesh Jha |  Ayush Garg
+    - Graphic & Logo Designing Page :  Bhavesh Jha |  Ayush Garg ||-> Bhavik Sojitra
 
     - Video Production Page : Cruze | Aradhya
 
